@@ -1,14 +1,11 @@
 import numpy as np
 from PIL import Image
 import os
-import sys
 import random
 import brotli
 import lzma
 import gzip
 import base64
-
-sys.set_int_max_str_digits(0)
 
 WIDTH = 128
 HEIGHT = 128
